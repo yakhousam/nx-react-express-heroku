@@ -57,6 +57,6 @@
     "*.{js,json,md,ts,jsx, tsx}": [
       "prettier --write --ignore-unknown"
     ],
-    "*.{test}.{ts,js}": "yarn test"
+    "*.test.{ts,js}": "yarn test"
   }
 }

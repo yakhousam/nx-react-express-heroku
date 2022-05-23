@@ -9,6 +9,7 @@ export function App() {
     <>
       <NxWelcome title="todos" />
       <div />
+      <div />
 
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}
