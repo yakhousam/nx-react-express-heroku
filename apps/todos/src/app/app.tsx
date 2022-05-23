@@ -5,10 +5,10 @@ import NxWelcome from './nx-welcome';
 import { Route, Routes, Link } from 'react-router-dom';
 
 export function App() {
+  console.log('hello');
   return (
     <>
       <NxWelcome title="todos" />
-      <div />
       <div />
 
       {/* START: routes */}
