@@ -23,6 +23,7 @@
   "lint-staged": {
     "*.{js,json,md,ts,jsx, tsx}": [
       "prettier --write --ignore-unknown"
-    ]
+    ],
+    "*.{test,spec}.{ts,js}": "yarn test"
   }
 }
